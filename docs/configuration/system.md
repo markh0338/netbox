@@ -20,6 +20,14 @@ Defines the default preferred language/locale for requests that do not specify o
 
 ---
 
+## DISPLAY_NAME
+
+Default: Not Set
+
+By default, this setting uses the HOSTNAME variable. However, a custom display name can be specified to modify the name displayed in the footer of each webpage.
+
+---
+
 ## DOCS_ROOT
 
 Default: `$INSTALL_ROOT/docs/`
