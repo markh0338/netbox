@@ -106,6 +106,7 @@ DEFAULT_PERMISSIONS = getattr(configuration, 'DEFAULT_PERMISSIONS', {
     'users.delete_token': ({'user': '$user'},),
 })
 DEVELOPER = getattr(configuration, 'DEVELOPER', False)
+DISPLAY_NAME = getattr(configuration, 'DISPLAY_NAME', HOSTNAME)
 DOCS_ROOT = getattr(configuration, 'DOCS_ROOT', os.path.join(os.path.dirname(BASE_DIR), 'docs'))
 EMAIL = getattr(configuration, 'EMAIL', {})
 EVENTS_PIPELINE = getattr(configuration, 'EVENTS_PIPELINE', [

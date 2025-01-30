@@ -119,6 +119,9 @@ DEBUG = False
 # Set the default preferred language/locale
 DEFAULT_LANGUAGE = 'en-us'
 
+# Set name displayed in the bottom left corner of all pages. If not set, the default is `HOSTNAME`.
+# DISPLAY_NAME = 'Netbox'
+
 # Email settings
 EMAIL = {
     'SERVER': 'localhost',
